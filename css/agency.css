@@ -6,7 +6,27 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      background-attachment: scroll;
+    background: url(../img/header-bg2.png) 20px 30px no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position-x: 10%;
+    background-position-y: 100%;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: cover;
+    height: 100%;
+    margin-top: 500px;
+
+    
 }
 
 .text-muted {
@@ -18,10 +38,29 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.75;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+    margin-left: 500px;
+    margin-top: -50px;
 }
 
+p.hell {
+    font-size: 15px;
+    line-height: 1.75;
+    font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    letter-spacing: 0.2px;
+    position: relative;
+    margin-left: 500px;
+    margin-top: -10px;
+    text-align: justify;
+    vertical-align: top;
+    width: 50%;
+    display:inline-block;
+    content:'';
+}
 p.large {
     font-size: 16px;
 }
@@ -52,8 +91,8 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    
 }
 
 .img-centered {
@@ -69,7 +108,7 @@ h6 {
 }
 
 .btn-primary {
-    border-color: rgba(0, 0, 0, 0);
+    border-color: #fed136;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -118,15 +157,21 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
+    display: flex;
+    width: 20%;
     padding: 20px 40px;
-    border-color: rgba(0, 0, 0, 0);
-    border-radius: 3px;
+    margin-left: 700px;
+    postion: fixed;
+    margin-bottom: 100px;
+    border-color: #fff;
+    border-width: 7px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: rgba(0, 0, 255, 0);
+    text-transform: uppercase;
+   font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 .btn-xl:hover,
@@ -134,9 +179,11 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #fff;
     color: #fff;
-    background-color: #fec503;
+    
+     background-color: rgba(0, 0, 255, 0);
+    opacity: 1;
 }
 
 .btn-xl:active,
@@ -161,7 +208,7 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
     border-color: #fed136;
-    background-color: #fed136;
+    background-color: rgba(0, 0, 255, 0);
 }
 
 .btn-xl .badge {
@@ -264,16 +311,9 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    
-    background-attachment: scroll;
-    background: url(../img/header-bg.png) no-repeat center center;
-    background-position: center;
-    background-repeat: none;
-    background-size: contain;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+   
+  
+
 }
 
 header .intro-text {
@@ -283,42 +323,52 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
+    margin-top: -250px;
+    margin-left: 500px;
+    padding-bottom: 300px;
+    position: absolute;
+    width: 100%;
+    background-size: 450px;
+   
+        
+   
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
+    margin-top: -210px;
+    padding-left: 90px;
+    margin-left: 515px;
+    font-size: 10px;
+    position: fixed;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
-    font-weight: 700;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    
     line-height: 50px;
 }
 
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
-        padding-bottom: 200px;
+        padding-bottom: 100px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
-        font-style: italic;
+        padding-left: 200px;
+        font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+        font-size: 30px;
         line-height: 40px;
+        letter-spacing: 3px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
-        font-weight: 700;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+        font-size: 50px;
         line-height: 75px;
+        letter-spacing: 8px;
     }
 }
 
@@ -337,7 +387,6 @@ section h3.section-subheading {
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
 }
 
@@ -719,15 +768,16 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 25px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     line-height: 40px;
+    color: #fff;
 }
 
 footer ul.quicklinks {
@@ -750,8 +800,8 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
-    background-color: #222;
+    color: #000;
+    background-color: #fff;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
