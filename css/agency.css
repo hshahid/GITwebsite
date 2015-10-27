@@ -8,13 +8,12 @@ body {
     overflow-x: hidden;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
       background-attachment: scroll;
-    background: url(../img/header-bg2.png) 20px 30px no-repeat;
+    background: url(../img/header-bg.png) 20px 30px no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-position-x: 10%;
-    background-position-y: 100%;
+    background-position: center;
     background-size: cover;
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
@@ -23,8 +22,7 @@ body {
     background-clip: initial;
     background-color: initial;
     background-size: cover;
-    height: 100%;
-    margin-top: 500px;
+    
 
     
 }
@@ -157,21 +155,16 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    display: flex;
-    width: 20%;
-    padding: 20px 40px;
-    margin-left: 700px;
-    postion: fixed;
-    margin-bottom: 100px;
-    border-color: #fff;
-    border-width: 7px;
+     padding: 10px 40px;
+    position: absolute
+    border-color: #fed136;
+    border-radius: 3px;
     text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: rgba(0, 0, 255, 0);
-    text-transform: uppercase;
-   font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    background-color: #fed136;
 }
 
 .btn-xl:hover,
@@ -768,7 +761,7 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 10px 0;
+    padding: 150px 0;
     text-align: center;
 }
 
@@ -789,7 +782,8 @@ footer ul.quicklinks {
 }
 
 ul.social-buttons {
-    margin-bottom: 0;
+    margin-top: -10px;
+    position: relative;
 }
 
 ul.social-buttons li a {
@@ -810,7 +804,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #c34d3f;
 }
 
 .btn:focus,
