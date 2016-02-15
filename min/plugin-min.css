@@ -2541,6 +2541,7 @@ img.responsive-img,video.responsive-video {
 
 .parallax {
     position: absolute;
+    height:1%;
     top: 0;
     left: 0;
     right: 0;
@@ -7301,6 +7302,14 @@ small {
     height: 35%;
     margin-left: auto;
     margin-right: auto;
+    
+}
+
+.imgResizeBack {
+    width: 15%;
+     background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain !important;
     
 }
 .card-panel {
