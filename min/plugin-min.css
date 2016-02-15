@@ -7120,13 +7120,14 @@ h5 {
     font-size: 1.64rem;
     line-height: 110%;
     margin: .82rem 0 .656rem;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important; 
+    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important; 
 }
 
 h6 {
-    font-size: 1rem;
+    font-size: 4rem;
     line-height: 110%;
     margin: .5rem 0 .4rem;
+    text-align: center;
 }
 
 em {
@@ -7287,6 +7288,21 @@ small {
     }
 }
 
+.imgResizeLarge {
+    width: 60%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.imgResizeMedium {
+    width: 35%;
+    height: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 .card-panel {
     transition: box-shadow .25s;
     padding: 20px;

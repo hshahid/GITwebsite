@@ -368,7 +368,7 @@ footer.page-footer {
     margin-top: 0 !important;
     background-image: url(../img/bgFooter.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
     object-fit: contain !important;
 }
 
@@ -384,9 +384,11 @@ footer.page-footer {
 
 .orangeBack {
     
-    background-color: #c14e43 !important; 
+    background-color: #c34d3f !important; 
     
 }
+
+
 
 .whiteText {
  color: #fff; 
