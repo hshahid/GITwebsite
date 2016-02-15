@@ -7125,7 +7125,8 @@ h5 {
 }
 
 h6 {
-    font-size: 4rem;
+    padding-top: -10px;
+    font-size: 3.5rem;
     line-height: 110%;
     margin: .5rem 0 .4rem;
     text-align: center;
